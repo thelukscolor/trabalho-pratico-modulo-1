@@ -20,7 +20,7 @@ function applyColor() {
 
   document.querySelector(
     "#divRGB"
-  ).style.backgroundColor = `rgb(${slideRed.value},${slideBlue.value},${slideGreen.value})`;
+  ).style.backgroundColor = `rgb(${slideRed.value},${slideGreen.value},${slideBlue.value})`;
 }
 
 function pushRed() {
