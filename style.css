@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#rangeRed,
+#rangeBlue,
+#rangeGreen {
+    width: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.divRed,
+.divBlue,
+.divGreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display: inline-flex;
+    width: 105px;
+    font-weight: bold;
+}
+
+#txtRed,
+#txtBlue,
+#txtGreen {
+    width: 60px;
+    height: 25px;
+    background-color: rgb(216, 216, 216);
+}
+
+#divRGB{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
